@@ -516,7 +516,7 @@
 			vcc_pon-supply = <&pon_perph_reg>;
 			qcom,play-mode = "direct";
 			qcom,wave-play-rate-us = <5263>;
-			qcom,actuator-type = "lra";
+			qcom,actuator-type = "erm";
 			qcom,wave-shape = "square";
 			qcom,vmax-mv = <2000>;
 			qcom,ilim-ma = <800>;
@@ -529,10 +529,10 @@
 			qcom,wave-samples = [3e 3e 3e 3e 3e 3e 3e 3e];
 			qcom,wave-rep-cnt = <1>;
 			qcom,wave-samp-rep-cnt = <1>;
-			qcom,lra-auto-res-mode="qwd";
-			qcom,lra-high-z="opt1";
-			qcom,lra-res-cal-period = <4>;
-			qcom,correct-lra-drive-freq;
+			qcom,erm-auto-res-mode="qwd";
+			qcom,erm-high-z="opt1";
+			qcom,erm-res-cal-period = <4>;
+			qcom,correct-erm-drive-freq;
 			qcom,misc-trim-error-rc19p2-clk-reg-present;
 		};
 	};

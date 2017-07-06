@@ -333,7 +333,7 @@
 			qcom,fg-cc-cv-threshold-mv = <4390>;
 
 			qcom,hold-soc-while-full;
-			qcom,vbat-estimate-diff-mv =<40>;
+			qcom,vbat-estimate-diff-mv =<120>;
 			qcom,resume-soc = <98>;
 			status = "okay";
 			qcom,bcl-lm-threshold-ma = <127>;
@@ -343,7 +343,7 @@
 
 			qcom,fg-chg-iterm-ma = <250>;
 			qcom,pmic-revid = <&pmi8950_revid>;
-			qcom,fg-cutoff-voltage-mv = <3400>;
+			qcom,fg-cutoff-voltage-mv = <3300>;
 			qcom,cycle-counter-en;
 			qcom,ext-sense-type;
 
